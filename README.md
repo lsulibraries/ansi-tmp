@@ -1,10 +1,10 @@
-# ansi-tmp
+\# ansi-tmp
 tmp repo to test new vagrant feature improving usability under Windows hosts...
 
 ## requires
 
 * virtual box
-* vagrant > 1.7.x
+* vagrant > 1.7.x (version 1.8.1 is available for windows here https://www.vagrantup.com/downloads.html)
 
 ## directions
 
