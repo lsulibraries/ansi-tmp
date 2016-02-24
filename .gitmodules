@@ -1,0 +1,3 @@
+[submodule "JJG-Ansible-Windows"]
+	path = JJG-Ansible-Windows
+	url = https://github.com/geerlingguy/JJG-Ansible-Windows.git
