@@ -80,8 +80,10 @@ Vagrant.configure(2) do |config|
 	  # Provisioning configuration for shell script.
 	  config.vm.provision "ansible_local" do |ansible|
             ansible.playbook = 'site.yml'
+			ansible.install = true
             ansible.limit = 'all'
             ansible.verbose = 'vv'
+			ansible.provisioning_path = '/vagrant/'
 	  end
 	else
 	  # Provisioning configuration for Ansible (for Mac/Linux hosts).
