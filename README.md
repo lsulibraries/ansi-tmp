@@ -9,6 +9,7 @@ tmp repo to test new vagrant feature improving usability under Windows hosts...
 ## directions
 
 * clone the repository as usual to your Windows host
+* use the recursive option *git clone --recursive*
 * from the terminal, change directory into the repository folder (`cd /path/to/repo`)
 * execute `vagrant up`
 
